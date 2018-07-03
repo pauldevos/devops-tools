@@ -13,16 +13,16 @@ A repository of tools used for Data Science, Machine Learning, Deep Learning, Da
     
     - command 3
 
-Python Environment Management
-- Link #1
-- Link #2
-- Link #3
-- Cheatsheet of commands:
-  - command_1
+-Python Environment Management
+  - Link #1
+  - Link #2
+  - Link #3
+  - Cheatsheet of commands:
+    - command_1
 
-  - command_2
+    - command_2
 
-  - command 3
+    - command 3
   
   
   
