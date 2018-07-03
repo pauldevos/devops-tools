@@ -120,25 +120,25 @@ Above would link to links in format below
 ---- 
 
 #### Github
-  - Link #1
-  - Link #2
-  - Link #3
-  - Cheatsheet of commands:
+Lays out understanding, tutorial, etc
+  
+Cheatsheet of commands:
     - command_1
-    
     - command_2
-    
     - command 3
+Other helpful resources:
+  - subLink #1 
+  - subLink #2
+  - subLink #3
 
-- Python Environment Management
+
+#### Python Environment Management
   - Link #1
   - Link #2
   - Link #3
   - Cheatsheet of commands:
     - command_1
-
     - command_2
-
     - command 3
   
   
