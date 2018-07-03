@@ -114,14 +114,30 @@ Airflow
 - Celery
 
 
+Python
+- OOP (practices)
+  - Types of Classes: Static, Method, Data, etc
+  - Decorators
+  - 4 Pillars
+  - etc
+- FP (practices)
 
+- Security
+  - SSH
+  - VPN
+  - Ports
+  - PHI/PII
+  - HiTRUST
+  - other?
 
 Above would link to links in format below
 ---- 
 
 #### Github
 Lays out understanding, tutorial, etc
-  
+Branching, Merging, Pull, Push, etc
+Multiple Accounts on same computer
+
 Cheatsheet of commands:
     - command_1
     - command_2
