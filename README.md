@@ -63,10 +63,14 @@ AWS
 - EC2
 - RDS
 - RedShift
-- other?
+- Aurora
 
 GCP
-- same array of tools as AWS but for GCP
+- Cloud Storage
+- Cloud SQL
+- Compute Engine
+- BigQuery
+- Cloud Spanner
 
 Machine Learning Algorithms
 - Linear Regression
@@ -94,7 +98,26 @@ Artificial Intelligence Fundamentals:
   - Train/Validation/Test
   - Metrics
 
+Databases (non-cloud)
+- ElasticSearch
+- Postgres
+- Redis
+- TimeScaleDB
+- MongoDB
+- Cassandra
+- Neo4J
 
+
+Airflow
+- Redis
+- Postgres
+- Celery
+
+
+
+
+Above would link to links in format below
+---- 
 
 #### Github
   - Link #1
