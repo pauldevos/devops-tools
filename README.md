@@ -3,6 +3,99 @@ A repository of tools used for Data Science, Machine Learning, Deep Learning, Da
 
 ## Tools
 
+Repositories
+- Github
+- Bitbucket
+- Gitlab
+  - Why I choose Github? Popularity and 3rd party extensions
+  
+Python Environment & Package Managers
+- Conda
+- Pyenv
+- venv
+- virtualenv
+- pip
+- ?
+
+CI/CD
+- CircleCI
+- TravisCI
+
+Jupyter Hub
+
+Docker Hub
+
+Kubernetes
+
+Ansible
+
+Web Development
+- Flask
+- Django
+- Tornado
+
+Blog/CMS
+- Pelican
+- Wagtail
+
+Spark
+- PySpark
+- Scala
+- Performance Tuning
+
+Unit Testing
+- pytest
+- unittest
+- nose
+
+Text Editors
+- Sublime
+- Atom
+- Nano
+- Vi/Vim/Emacs
+
+IDEs
+- PyCharm
+
+AWS
+- CloudFormation
+- S3
+- EC2
+- RDS
+- RedShift
+- other?
+
+GCP
+- same array of tools as AWS but for GCP
+
+Machine Learning Algorithms
+- Linear Regression
+- Logistic Regression
+- Decision Trees
+- K-Nearest Neighbors (KNN)
+- K-Means
+- Support Vector Machines (SVM)
+- Principal Component Analysis (PCA)
+- Gradient Boost
+- Neural Networks
+  - CNN
+  - GNN
+
+Artificial Intelligence Fundamentals:
+- Algebraic concepts
+- Linear Algebra
+- Optimization Methods
+- Numerical Algorithms
+- Feature Selection
+- Project Structure
+  - Vectorization of Data
+  - Feature Engineering
+  - Handling missing data and outliers, imputation
+  - Train/Validation/Test
+  - Metrics
+
+
+
 #### Github
   - Link #1
   - Link #2
