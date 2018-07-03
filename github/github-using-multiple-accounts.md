@@ -20,7 +20,9 @@ Verify Github Connection:
 ssh -T git@github.com
 ```
 
-If you get the `ssh “permissions are too open” error` try `chmod 600 ~/.ssh/id_rsa` or instead of `id_rsa` the name of your ssh private key.
+#### Troubleshooting Errors
+
+- If you get the `ssh “permissions are too open” error` try `chmod 600 ~/.ssh/id_rsa` or instead of `id_rsa` the name of your ssh private key.
 
 Resources:
 
