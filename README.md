@@ -72,6 +72,13 @@ GCP
 - BigQuery
 - Cloud Spanner
 
+
+Airflow
+- Redis
+- Postgres
+- Celery
+
+
 Machine Learning Algorithms
 - Linear Regression
 - Logistic Regression
@@ -85,6 +92,7 @@ Machine Learning Algorithms
   - CNN
   - GNN
 
+#### Might Put these in a separate repo README (and folder) or just leave this folder as the "link farm"
 Artificial Intelligence Fundamentals:
 - Algebraic concepts
 - Linear Algebra
@@ -98,7 +106,10 @@ Artificial Intelligence Fundamentals:
   - Train/Validation/Test
   - Metrics
 
-Databases (non-cloud)
+#### Deep Learning
+
+
+#### Databases (non-cloud)
 - ElasticSearch
 - Postgres
 - Redis
@@ -106,13 +117,6 @@ Databases (non-cloud)
 - MongoDB
 - Cassandra
 - Neo4J
-
-
-Airflow
-- Redis
-- Postgres
-- Celery
-
 
 Python
 - OOP (practices)
