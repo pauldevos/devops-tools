@@ -13,7 +13,7 @@ A repository of tools used for Data Science, Machine Learning, Deep Learning, Da
     
     - command 3
 
--Python Environment Management
+- Python Environment Management
   - Link #1
   - Link #2
   - Link #3
