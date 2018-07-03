@@ -11,3 +11,7 @@ First, if you haven't already, sign up for Github account, well, TWO in fact. Yo
 [Bitbucket Signup](https://bitbucket.org/account/signup/).
 
 Second, check for your SSH keys. For all things SSH keys related, Github has a great page for [SSH key info](https://help.github.com/articles/connecting-to-github-with-ssh/).
+
+```bash
+git config --global user.email "email@example.com"
+```
