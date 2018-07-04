@@ -64,3 +64,4 @@ Resources:
 - [StackOverflow - ssh has no identities](https://stackoverflow.com/questions/26505980/github-permission-denied-ssh-add-agent-has-no-identities/28444641#28444641)
 - [StackOverflow - Error: Permission denied (publickey)](https://help.github.com/articles/error-permission-denied-publickey/)
 - [StackOverflow - git submodule with other users](https://stackoverflow.com/questions/6041516/git-submodule-update-with-other-user)
+- [StackOverflow - Use a different user.email and user.name for Git config based upon remote clone URL](https://stackoverflow.com/questions/34597186/use-a-different-user-email-and-user-name-for-git-config-based-upon-remote-clone)
