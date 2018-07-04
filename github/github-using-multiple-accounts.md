@@ -1,10 +1,13 @@
 This file will cover how to use multiple accounts on the same computer. A possibly use case might be you have a personal laptop but 
 you are doing work for a client and pushing to a separate repo with a different account (different email).
 
-
 I found this helpful, but if it doesn't work for you -- there might be a few steps you missed.
-https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574
 
+[How to use Github with multiple accounts](https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574)
+
+
+
+[Using Multiple Public SSH Keys](https://superuser.com/questions/272465/using-multiple-ssh-public-keys)
 
 
 First, if you haven't already, sign up for Github account, well, TWO in fact. You can do that here: [Github Signup](https://github.com/join). I haven't tried it but you might also be able to do this on Bitbucket, for account at Bitbucket, go here: 
