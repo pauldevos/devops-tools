@@ -42,7 +42,7 @@ ssh-add -K ~/.ssh/id_rsa or instead of id_rsa the name of your ssh private key
 - If you get the `ssh “permissions are too open” error` try `chmod 600 ~/.ssh/id_rsa` or instead of `id_rsa` the name of your ssh private key. 
 
 Resources:
-
-[StackOverflow - Multiple github accounts on the same computer?](https://stackoverflow.com/questions/3860112/multiple-github-accounts-on-the-same-computer)
-
-[StackOverflow - ssh permissions are too open](https://stackoverflow.com/questions/9270734/ssh-permissions-are-too-open-error)
+- [StackOverflow - Multiple github accounts on the same computer?](https://stackoverflow.com/questions/3860112/multiple-github-accounts-on-the-same-computer)
+- [StackOverflow - ssh permissions are too open](https://stackoverflow.com/questions/9270734/ssh-permissions-are-too-open-error)
+- [StackOverflow - ssh has no identities](https://stackoverflow.com/questions/26505980/github-permission-denied-ssh-add-agent-has-no-identities/28444641#28444641)
+- [StackOverflow - Error: Permission denied (publickey)](https://help.github.com/articles/error-permission-denied-publickey/)
