@@ -2,7 +2,8 @@ This file will cover how to use multiple accounts on the same computer. A possib
 you are doing work for a client and pushing to a separate repo with a different account (different email).
 
 
-
+I found this helpful, but if it doesn't work for you -- there might be a few steps you missed.
+https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574
 
 
 
@@ -37,6 +38,9 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ssh-add -K ~/.ssh/id_rsa or instead of id_rsa the name of your ssh private key
 ```
 
+#### Be sure to add your keys to your Github account too!
+
+
 #### [Make sure to associate your email address for a _single_ repository - non - global](https://help.github.com/articles/setting-your-commit-email-address-in-git/#setting-your-email-address-for-a-single-repository)
 ```bash
 git config user.email "email@example.com"
@@ -56,3 +60,4 @@ Resources:
 - [StackOverflow - ssh permissions are too open](https://stackoverflow.com/questions/9270734/ssh-permissions-are-too-open-error)
 - [StackOverflow - ssh has no identities](https://stackoverflow.com/questions/26505980/github-permission-denied-ssh-add-agent-has-no-identities/28444641#28444641)
 - [StackOverflow - Error: Permission denied (publickey)](https://help.github.com/articles/error-permission-denied-publickey/)
+- [StackOverflow - git submodule with other users](https://stackoverflow.com/questions/6041516/git-submodule-update-with-other-user)
