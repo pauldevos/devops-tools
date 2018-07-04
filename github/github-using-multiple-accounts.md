@@ -44,6 +44,8 @@ git config user.email "email@example.com"
 
 
 
+#### Pro Git Book - https://git-scm.com/book/en/v2
+
 
 #### Troubleshooting Errors
 
