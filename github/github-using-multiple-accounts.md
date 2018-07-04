@@ -37,6 +37,14 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ssh-add -K ~/.ssh/id_rsa or instead of id_rsa the name of your ssh private key
 ```
 
+#### [Make sure to associate your email address for a _single_ repository - non - global](https://help.github.com/articles/setting-your-commit-email-address-in-git/#setting-your-email-address-for-a-single-repository)
+```bash
+git config user.email "email@example.com"
+```
+
+
+
+
 #### Troubleshooting Errors
 
 - If you get the `ssh “permissions are too open” error` try `chmod 600 ~/.ssh/id_rsa` or instead of `id_rsa` the name of your ssh private key. 
