@@ -34,7 +34,16 @@ Kubernetes
 
 Ansible
 
-Web Development
+Chef
+
+Puppet
+
+Jenkins
+
+
+## Web Development
+
+Python Web Frameworks
 - Flask
 - Django
 - Tornado
@@ -43,10 +52,16 @@ Blog/CMS
 - Pelican
 - Wagtail
 
+
+## Big Data Engineering
 Spark
 - PySpark
 - Scala
 - Performance Tuning
+
+Dask
+Pandas on Ray
+
 
 Unit Testing
 - pytest
@@ -61,6 +76,8 @@ Text Editors
 
 IDEs
 - PyCharm
+
+## Cloud Provisioning
 
 AWS
 - CloudFormation
@@ -84,6 +101,8 @@ Airflow
 - Celery
 
 
+## Machine Learning
+
 Machine Learning Algorithms
 - Linear Regression
 - Logistic Regression
@@ -96,6 +115,8 @@ Machine Learning Algorithms
 - Neural Networks
   - CNN
   - GNN
+
+## Deep Learning
 
 #### Might Put these in a separate repo README (and folder) or just leave this folder as the "link farm"
 Artificial Intelligence Fundamentals:
@@ -111,10 +132,8 @@ Artificial Intelligence Fundamentals:
   - Train/Validation/Test
   - Metrics
 
-#### Deep Learning
 
-
-#### Databases (non-cloud)
+## Databases (non-cloud)
 - ElasticSearch
 - Postgres
 - Redis
