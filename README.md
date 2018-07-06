@@ -25,6 +25,8 @@ Jupyter Hub
 
 Docker Hub
 
+[Helm](https://github.com/kubernetes/helm)
+
 Kubernetes
 
 Ansible
