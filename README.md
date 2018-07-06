@@ -8,14 +8,7 @@ Repositories
 - Bitbucket
 - Gitlab
   - Why I choose Github? Popularity and 3rd party extensions
-  
-Python Environment & Package Managers
-- Conda
-- Pyenv
-- venv
-- virtualenv
-- pip
-- ?
+ 
 
 CI/CD
 - CircleCI
@@ -26,6 +19,69 @@ Jupyter Hub
 Docker Hub
 
 ## Deployment
+
+
+This is an effort on my part to understand and share what tools do what within the deployment process.
+
+#### Documentation Method #1
+- Configuration Management
+  - Chef, Puppet, SaltStack, Ansible
+- Environment Management
+- Package Management
+- Infrastructure Management
+  - Docker
+- Software Provisioning
+  - Ansible
+- Application Deployment
+  - Ansible
+  
+#### Documentation Method #1
+
+Categories:
+- Configuration Management
+- Environment Management
+- Package Management
+- Infrastructure Management
+- Software Provisioning
+- Application Deployment
+
+Chef
+  - Configuration Management
+Puppet
+  - Configuration Management
+SaltStack
+  - Configuration Management
+
+Ansible
+- Configuration Management
+- Software Provisioning
+- Application Deployment
+- Orchestration Manager
+  
+- Chef, Puppet, SaltStack, Ansible
+
+Ansible is an IT automation tool. It can configure systems, deploy software, and orchestrate more advanced IT tasks such as continuous deployments or zero downtime rolling updates.
+
+Ansible is an open source software that automates software provisioning, configuration management, and application deployment
+
+
+#### Configuration Management
+
+#### Python Environment Management
+- Conda
+- Pyenv
+- venv
+- virtualenv
+- ?
+
+#### Python Package Management
+- Conda
+- pip
+- ?
+
+
+
+
 
 [Helm](https://github.com/kubernetes/helm) - a Kubernetes Package Manager
 
