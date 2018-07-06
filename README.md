@@ -40,6 +40,12 @@ Puppet
 
 Jenkins
 
+## Workflow Schedulers, Monitors
+
+Airflow
+- Redis
+- Postgres
+- Celery
 
 ## Web Development
 
@@ -95,10 +101,6 @@ GCP
 - Cloud Spanner
 
 
-Airflow
-- Redis
-- Postgres
-- Celery
 
 
 ## Machine Learning
