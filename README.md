@@ -25,9 +25,12 @@ Jupyter Hub
 
 Docker Hub
 
-[Helm](https://github.com/kubernetes/helm)
+## Deployment
+
+[Helm](https://github.com/kubernetes/helm) - a Kubernetes Package Manager
 
 Kubernetes
+  - [Airflow on Kubernetes - Part 1](https://kubernetes.io/blog/2018/06/28/airflow-on-kubernetes-part-1-a-different-kind-of-operator/)
 
 Ansible
 
