@@ -46,17 +46,20 @@ Categories:
 - Application Deployment
 
 Chef
-  - Configuration Management
+* Configuration Management
+  
 Puppet
-  - Configuration Management
+* Configuration Management
+  
 SaltStack
-  - Configuration Management
+* Configuration Management
+  
 
 Ansible
-- Configuration Management
-- Software Provisioning
-- Application Deployment
-- Orchestration Manager
+* Configuration Management
+* Software Provisioning
+* Application Deployment
+* Orchestration Manager
   
 - Chef, Puppet, SaltStack, Ansible
 
