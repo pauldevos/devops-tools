@@ -67,6 +67,13 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 
 Ansible is an open source software that automates software provisioning, configuration management, and application deployment
 
+In contrast with popular configuration management software — such as **Chef**, **Puppet**, and **CFEngine** — **Ansible** uses an 
+*agentless* architecture. With an *agent-based* architecture, nodes must have a locally installed daemon that communicates with a controlling
+machine. With an  agentless architecture, nodes are not required to install and run background daemons to connect with a controlling 
+machine. This type of  architecture reduces the overhead on the network by preventing the nodes from polling the controlling machine.
+
+source: [Wikipedia](https://en.wikipedia.org/wiki/Ansible_(software))
+
 
 #### Configuration Management
 
