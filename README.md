@@ -35,7 +35,7 @@ This is an effort on my part to understand and share what tools do what within t
 - Application Deployment
   - Ansible
   
-#### Documentation Method #1
+#### Documentation Method #2
 
 Categories:
 - Configuration Management
@@ -60,6 +60,25 @@ Ansible
 * Software Provisioning
 * Application Deployment
 * Orchestration Manager
+  
+#### Documentation Method #3
+
+- Configuration Management
+- Environment Management
+- Package Management
+- Infrastructure Management
+- Software Provisioning
+- Application Deployment
+
+|Tool | Configuration | Environment | Infrastructure  |Software | Application Deployment | Package  |
+| ------------- | ------------- |:-----------:| --------:       |------------- |:-----------:| --------:|
+| Ansible | col 3 is      | right       | $1600           |col 3 is      | right       | $1600    |
+| Kubernetes | col 2 is      | centered    |   $12           |col 3 is      | right       | $1600    |
+| Docker | zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
+
+
+  
+  
   
 - Chef, Puppet, SaltStack, Ansible
 
