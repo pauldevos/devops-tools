@@ -53,7 +53,8 @@ Puppet
   
 SaltStack
 * Configuration Management
-  
+
+Teraform - [Use Cases](https://www.terraform.io/intro/use-cases.html)
 
 Ansible
 * Configuration Management
@@ -70,15 +71,17 @@ Ansible
 - Software Provisioning
 - Application Deployment
 
-|Tool | Configuration | Environment | Infrastructure  |Software | Application Deployment | Package  |
+There are different types of tools that `manage` variable parts of the provisioning, configuring, envrionment, packaging, and deployment processes. This is a table to help identify which tool can do what. It does not necessarily take into account the difficulty for each category (that may come later as I understand each tool more). 
+
+|Tool | Configuration| Environment| Infrastructure|Software | Application Deployment | Package|
 | ------------- | ------------- |:-----------:| --------:       |------------- |:-----------:| --------:|
-| Ansible | col 3 is      | right       | $1600           |col 3 is      | right       | $1600    |
+| Ansible | Yes | Yes       | Very Well           | No     | Yes       | Sort of    |
 | Kubernetes | col 2 is      | centered    |   $12           |col 3 is      | right       | $1600    |
 | Docker | zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
 
 
-  
-  
+Configuration management tools install and manage software on servers that are provisioned.
+- Examples: Chef, Puppet, Ansible, and SaltStack
   
 - Chef, Puppet, SaltStack, Ansible
 
