@@ -73,11 +73,11 @@ Ansible
 
 There are different types of tools that `manage` variable parts of the provisioning, configuring, envrionment, packaging, and deployment processes. This is a table to help identify which tool can do what. It does not necessarily take into account the difficulty for each category (that may come later as I understand each tool more). 
 
-|Tool | Orchestration | Configuration| Environment| Infrastructure|Software | App Deployment | Package|
-| ------------- |------------ | ------------ |:----------:| --------:       |------------ |:---------:| -------:|
+|Tool | Orchestration | Configuration| Environment| Infrastructure|Install Software | App Deployment | Package|
+| ------------- | :--------:  | :--------:  |:--------:| :--------: | :--------:  | :--------: | :--------: |
 | Ansible | Yes |Yes | Yes       | Very Well           | No     | Yes       | Sort of    |
 | Kubernetes | col 2 is      |col 2 is      | centered    |   $12           |col 3 is      | right       | $1600    |
-| [Docker](https://www.docker.com/what-docker) | zebra stripes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
+| [Docker](https://www.docker.com/what-docker) | No | Yes | No | No | Yes| No | No |
 | Terraform | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
 | CloudFormation | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
 | [Packer](https://www.packer.io/) | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
