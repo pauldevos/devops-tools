@@ -82,8 +82,12 @@ There are different types of tools that `manage` variable parts of the provision
 | CloudFormation | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
 
 
-Configuration management tools install and manage software on servers that are provisioned.
-- Examples: Chef, Puppet, Ansible, and SaltStack
+Configuration management tools install and manage software on servers that are provisioned. Some examples of configuration management 
+tools include Chef, Puppet, Ansible, and SaltStack. 
+
+> These two categories [orchestration and configuration management] are not mutually exclusive, as most configuration management tools can do some degree of provisioning and most 
+> orchestration tools can do some degree of configuration management. But the focus on configuration management or orchestration means
+> that some of the tools are going to be a better fit for certain types of tasks. - [Yevgeniy Brikman](https://blog.gruntwork.io/why-we-use-terraform-and-not-chef-puppet-ansible-saltstack-or-cloudformation-7989dad2865c)
   
 - Chef, Puppet, SaltStack, Ansible
 
