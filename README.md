@@ -20,6 +20,7 @@ Docker Hub
 
 ## Deployment
 
+A great website with a pretty extensive collection of tools organized by category type: http://www.devopsbookmarks.com/
 
 This is an effort on my part to understand and share what tools do what within the deployment process.
 
@@ -94,12 +95,15 @@ tools include Chef, Puppet, Ansible, and SaltStack.
 > These two categories [orchestration and configuration management] are not mutually exclusive, as most configuration management tools can do some degree of provisioning and most 
 > orchestration tools can do some degree of configuration management. But the focus on configuration management or orchestration means
 > that some of the tools are going to be a better fit for certain types of tasks. - [Yevgeniy Brikman](https://blog.gruntwork.io/why-we-use-terraform-and-not-chef-puppet-ansible-saltstack-or-cloudformation-7989dad2865c)
-  
-- Chef, Puppet, SaltStack, Ansible
 
+=> Once you have an image (e.g. Docker), all you need is a server (or servers) for which to deploy the images on. Thus an orchestration tool is all you need. Terraform.
+  
+
+
+#### Ansible
 Ansible is an IT automation tool. It can configure systems, deploy software, and orchestrate more advanced IT tasks such as continuous deployments or zero downtime rolling updates.
 
-Ansible is an open source software that automates software provisioning, configuration management, and application deployment
+Ansible is an open source software that automates software provisioning, configuration management, and application deployment.
 
 In contrast with popular configuration management software — such as **Chef**, **Puppet**, and **CFEngine** — **Ansible** uses an 
 *agentless* architecture. With an *agent-based* architecture, nodes must have a locally installed daemon that communicates with a controlling
