@@ -77,10 +77,10 @@ There are different types of tools that `manage` variable parts of the provision
 | ------------- |------------ | ------------ |:----------:| --------:       |------------ |:---------:| -------:|
 | Ansible | Yes |Yes | Yes       | Very Well           | No     | Yes       | Sort of    |
 | Kubernetes | col 2 is      |col 2 is      | centered    |   $12           |col 3 is      | right       | $1600    |
-| Docker | zebra stripes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
+| [Docker](https://www.docker.com/what-docker) | zebra stripes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
 | Terraform | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
 | CloudFormation | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
-| Packer | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
+| [Packer](https://www.packer.io/) | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
 | Chef | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
 | Puppet | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
 | SaltStack | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
