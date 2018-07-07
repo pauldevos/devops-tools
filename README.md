@@ -73,13 +73,19 @@ Ansible
 
 There are different types of tools that `manage` variable parts of the provisioning, configuring, envrionment, packaging, and deployment processes. This is a table to help identify which tool can do what. It does not necessarily take into account the difficulty for each category (that may come later as I understand each tool more). 
 
-|Tool | Orchestration | Configuration| Environment| Infrastructure|Software | Application Deployment | Package|
-| ------------- |------------- | ------------- |:-----------:| --------:       |------------- |:-----------:| --------:|
+|Tool | Orchestration | Configuration| Environment| Infrastructure|Software | App Deployment | Package|
+| ------------- |------------ | ------------ |:----------:| --------:       |------------ |:---------:| -------:|
 | Ansible | Yes |Yes | Yes       | Very Well           | No     | Yes       | Sort of    |
 | Kubernetes | col 2 is      |col 2 is      | centered    |   $12           |col 3 is      | right       | $1600    |
 | Docker | zebra stripes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
 | Terraform | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
 | CloudFormation | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
+| Packer | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
+| Chef | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
+| Puppet | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
+| SaltStack | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
+| Kubernetes | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
+| Jenkins | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
 
 
 Configuration management tools install and manage software on servers that are provisioned. Some examples of configuration management 
