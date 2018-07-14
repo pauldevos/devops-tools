@@ -27,10 +27,6 @@ A great website with a pretty extensive collection of tools organized by categor
 This is an effort on my part to understand and share what tools do what within the deployment process.
 
 #### Documentation Method #1
-- Configuration Management
-  - Chef, Puppet, SaltStack, Ansible
-- Environment Management
-- Package Management
 - Infrastructure Management
   - Docker
 - Software Provisioning
@@ -84,9 +80,9 @@ There are different types of tools that `manage` variable parts of the provision
 | Terraform | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
 | CloudFormation | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
 | [Packer](https://www.packer.io/) | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
-| Chef | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
-| Puppet | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
-| SaltStack | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
+| Chef | Yes |zebra stripes | Yes   |    $1           |col 3 is      | right       | $1600    |
+| Puppet | Yes |zebra stripes | Yes |    $1           |col 3 is      | right       | $1600    |
+| SaltStack | Yes |zebra stripes | Yes  |    $1           |col 3 is      | right       | $1600    |
 | Kubernetes | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
 | Jenkins | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
 
