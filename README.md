@@ -25,43 +25,9 @@ Docker Hub
 A great website with a pretty extensive collection of tools organized by category type: http://www.devopsbookmarks.com/
 
 This is an effort on my part to understand and share what tools do what within the deployment process.
-
-#### Documentation Method #1
-- Infrastructure Management
-  - Docker
-- Software Provisioning
-  - Ansible
-- Application Deployment
-  - Ansible
   
-#### Documentation Method #2
 
-Categories:
-- Configuration Management
-- Environment Management
-- Package Management
-- Infrastructure Management
-- Software Provisioning
-- Application Deployment
-
-Chef
-* Configuration Management
-  
-Puppet
-* Configuration Management
-  
-SaltStack
-* Configuration Management
-
-Teraform - [Use Cases](https://www.terraform.io/intro/use-cases.html)
-
-Ansible
-* Configuration Management
-* Software Provisioning
-* Application Deployment
-* Orchestration Manager
-  
-#### Documentation Method #3
+#### DevOps - DataOps Categories
 
 - Configuration Management
 - Environment Management
@@ -74,17 +40,16 @@ There are different types of tools that `manage` variable parts of the provision
 
 |Tool | Orchestration | Configuration| Environment| Infrastructure|Install Software | App Deployment | Package|
 | ------------- | :--------:  | :--------:  |:--------:| :--------: | :--------:  | :--------: | :--------: |
-| Ansible | Yes |Yes | Yes       | Very Well           | No     | Yes       | Sort of    |
-| Kubernetes | col 2 is      |col 2 is      | centered    |   $12           |col 3 is      | right       | $1600    |
+| Ansible    | Yes |Yes | Yes| Very Well| No | Yes | Sort of |
+| Kubernetes | - | - |  - | - | - | - | - |
 | [Docker](https://www.docker.com/what-docker) | No | Yes | No | No | Yes| No | No |
-| Terraform | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
-| CloudFormation | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
-| [Packer](https://www.packer.io/) | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
-| Chef | Yes |zebra stripes | Yes   |    $1           |col 3 is      | right       | $1600    |
-| Puppet | Yes |zebra stripes | Yes |    $1           |col 3 is      | right       | $1600    |
-| SaltStack | Yes |zebra stripes | Yes  |    $1           |col 3 is      | right       | $1600    |
-| Kubernetes | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
-| Jenkins | Yes |zebra stripes | are neat    |    $1           |col 3 is      | right       | $1600    |
+| Terraform | Yes | - | - | - | - | - | - |
+| CloudFormation | Yes | - | - | - | - | - | - |
+| [Packer](https://www.packer.io/) | Yes | - | - | - | - | - | - |
+| Chef | Yes | - | Yes | - | - | - | - |
+| Puppet | Yes | - | Yes | - | - | - | - |
+| SaltStack | Yes | - | Yes | - | - | - | - |
+| Jenkins | - | - | - | - | - | - | - |
 
 
 Configuration management tools install and manage software on servers that are provisioned. Some examples of configuration management 
@@ -96,6 +61,8 @@ tools include Chef, Puppet, Ansible, and SaltStack.
 
 => Once you have an image (e.g. Docker), all you need is a server (or servers) for which to deploy the images on. Thus an orchestration tool is all you need. Terraform.
   
+
+Terraform - [Use Cases](https://www.terraform.io/intro/use-cases.html)
 
 
 #### Ansible
