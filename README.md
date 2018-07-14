@@ -40,16 +40,18 @@ There are different types of tools that `manage` variable parts of the provision
 
 |Tool | Orchestration | Configuration| Environment| Infrastructure|Install Software | App Deployment | Package|
 | ------------- | :--------:  | :--------:  |:--------:| :--------: | :--------:  | :--------: | :--------: |
-| Ansible    | Yes |Yes | Yes| Very Well| No | Yes | Sort of |
-| Kubernetes | - | - |  - | - | - | - | - |
+| [Ansible] (https://www.ansible.com/)| Yes |Yes | Yes| Very Well| No | Yes | Sort of |
+| [Kubernetes](https://kubernetes.io/) | - | - |  - | - | - | - | - |
 | [Docker](https://www.docker.com/what-docker) | No | Yes | No | No | Yes| No | No |
-| Terraform | Yes | - | - | - | - | - | - |
+| [Terraform](https://www.terraform.io/docs/index.html)| Yes | - | - | - | - | - | - |
 | CloudFormation | Yes | - | - | - | - | - | - |
-| [Packer](https://www.packer.io/) | Yes | - | - | - | - | - | - |
-| Chef | Yes | - | Yes | - | - | - | - |
-| Puppet | Yes | - | Yes | - | - | - | - |
-| SaltStack | Yes | - | Yes | - | - | - | - |
+| [Packer](https://www.packer.io/intro/index.html) | Yes | - | - | - | Yes | - | - |
+| [Chef](https://www.chef.io/)| Yes | - | Yes | - | - | - | - |
+| [Puppet](https://puppet.com/) | Yes | - | Yes | - | - | - | - |
+| [SaltStack](https://saltstack.com/community/) | Yes | - | Yes | - | - | - | - |
+| [Fabric](http://www.fabfile.org/) | Yes | Yes | - | - | - | - | - |
 | Jenkins | - | - | - | - | - | - | - |
+
 
 
 Configuration management tools install and manage software on servers that are provisioned. Some examples of configuration management 
