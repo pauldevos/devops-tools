@@ -1,29 +1,12 @@
 # tools-repository
 A repository of tools used for Data Science, Machine Learning, Deep Learning, Data Engineering, and DataOps revolving around reproducibility and compatability across operating systems
 
+
 #### <------- This is in development --------> 
 
 ## Tools
 
-Repositories
-- Github
-- Bitbucket
-- Gitlab
-  - Why I choose Github? Popularity and 3rd party extensions
- 
-
-CI/CD
-- CircleCI
-- TravisCI
-
-Jupyter Hub
-
-Docker Hub
-
-## Deployment
-
 A great website with a pretty extensive collection of tools organized by category type: http://www.devopsbookmarks.com/
-
 This is an effort on my part to understand and share what tools do what within the deployment process.
   
 
@@ -40,7 +23,7 @@ There are different types of tools that `manage` variable parts of the provision
 
 |Tool | Orchestration | Configuration| Environment| Infrastructure|Install Software | App Deployment | Package|
 | ------------- | :--------:  | :--------:  |:--------:| :--------: | :--------:  | :--------: | :--------: |
-| [Ansible] (https://www.ansible.com/)| Yes |Yes | Yes| Very Well| No | Yes | Sort of |
+| [Ansible](https://www.ansible.com/)| Yes |Yes | Yes| Very Well| No | Yes | Sort of |
 | [Kubernetes](https://kubernetes.io/) | - | - |  - | - | - | - | - |
 | [Docker](https://www.docker.com/what-docker) | No | Yes | No | No | Yes| No | No |
 | [Terraform](https://www.terraform.io/docs/index.html)| Yes | - | - | - | - | - | - |
@@ -53,7 +36,6 @@ There are different types of tools that `manage` variable parts of the provision
 | Jenkins | - | - | - | - | - | - | - |
 
 
-
 Configuration management tools install and manage software on servers that are provisioned. Some examples of configuration management 
 tools include Chef, Puppet, Ansible, and SaltStack. 
 
@@ -64,8 +46,10 @@ tools include Chef, Puppet, Ansible, and SaltStack.
 => Once you have an image (e.g. Docker), all you need is a server (or servers) for which to deploy the images on. Thus an orchestration tool is all you need. Terraform.
   
 
-Terraform - [Use Cases](https://www.terraform.io/intro/use-cases.html)
 
+A more in depth look at each of the tools. These will be sublinks to other pages.
+
+Terraform - [Use Cases](https://www.terraform.io/intro/use-cases.html)
 
 #### Ansible
 Ansible is an IT automation tool. It can configure systems, deploy software, and orchestrate more advanced IT tasks such as continuous deployments or zero downtime rolling updates.
@@ -79,8 +63,19 @@ machine. This type of  architecture reduces the overhead on the network by preve
 
 source: [Wikipedia](https://en.wikipedia.org/wiki/Ansible_(software))
 
+[Helm](https://github.com/kubernetes/helm) - a Kubernetes Package Manager
 
-#### Configuration Management
+Kubernetes
+  - [Airflow on Kubernetes - Part 1](https://kubernetes.io/blog/2018/06/28/airflow-on-kubernetes-part-1-a-different-kind-of-operator/)
+  - [A Friendly Introduction to Kubernetes](https://medium.freecodecamp.org/a-friendly-introduction-to-kubernetes-670c50ce4542)
+
+Ansible
+Chef
+Puppet
+Jenkins
+Docker
+  - [Docker Development Workflow](https://medium.freecodecamp.org/docker-development-workflow-a-guide-with-flask-and-postgres-db1a1843044a)
+
 
 #### Python Environment Management
 - Conda
@@ -95,25 +90,22 @@ source: [Wikipedia](https://en.wikipedia.org/wiki/Ansible_(software))
 - ?
 
 
+Repositories
+- Github
+- Bitbucket
+- Gitlab
+ 
+
+CI/CD
+- CircleCI
+- TravisCI
+
+Jupyter Hub
+Docker Hub
 
 
 
-[Helm](https://github.com/kubernetes/helm) - a Kubernetes Package Manager
 
-Kubernetes
-  - [Airflow on Kubernetes - Part 1](https://kubernetes.io/blog/2018/06/28/airflow-on-kubernetes-part-1-a-different-kind-of-operator/)
-  - [A Friendly Introduction to Kubernetes](https://medium.freecodecamp.org/a-friendly-introduction-to-kubernetes-670c50ce4542)
-
-Ansible
-
-Chef
-
-Puppet
-
-Jenkins
-
-Docker
-  - [Docker Development Workflow](https://medium.freecodecamp.org/docker-development-workflow-a-guide-with-flask-and-postgres-db1a1843044a)
 
 ## Workflow Schedulers, Monitors
 
