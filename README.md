@@ -135,6 +135,7 @@ source: [Wikipedia](https://en.wikipedia.org/wiki/Ansible_(software))
 
 Kubernetes
   - [Airflow on Kubernetes - Part 1](https://kubernetes.io/blog/2018/06/28/airflow-on-kubernetes-part-1-a-different-kind-of-operator/)
+  - [A Friendly Introduction to Kubernetes](https://medium.freecodecamp.org/a-friendly-introduction-to-kubernetes-670c50ce4542)
 
 Ansible
 
