@@ -211,6 +211,15 @@ Artificial Intelligence Fundamentals:
 - Cassandra
 - Neo4J
 
+## Business Intelligence - Dashboarding Tools
+- [Orange](https://orange.biolab.si/)
+- [SuperSet](https://github.com/apache/incubator-superset)
+- 
+
+
+
+
+
 Python
 - OOP (practices)
   - Types of Classes: Static, Method, Data, etc
