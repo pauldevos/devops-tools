@@ -55,6 +55,6 @@ A Pod models an application-specific "logical host" and can contain different ap
 ![Pods Overview](https://d33wubrfki0l68.cloudfront.net/fe03f68d8ede9815184852ca2a4fd30325e5d15a/98064/docs/tutorials/kubernetes-basics/public/images/module_03_pods.svg)
 
 Note: 
-Pod1 = 1 container
-Pod4 = 3 containers (3 different applications) with 2 volumes -- all have shared IP address
+* Pod1 = 1 container
+* Pod4 = 3 containers (3 different applications) with 2 volumes -- all have shared IP address
 
