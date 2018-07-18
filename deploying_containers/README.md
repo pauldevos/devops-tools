@@ -58,3 +58,8 @@ Note:
 * Pod1 = 1 container
 * Pod4 = 3 containers (3 different applications) with 2 volumes -- all have shared IP address
 
+Some definitions:
+A Pod always runs on a **Node**. A Node is a `worker machine` in Kubernetes and may be either a _virtual_ or a _physical machine_, depending on the cluster.
+
+Each `Node` is managed by the `Master`. A Node can have multiple pods, and the Kubernetes master automatically handles scheduling the pods across the Nodes in the cluster. The Master's automatic scheduling takes into account the available resources on each Node.
+
