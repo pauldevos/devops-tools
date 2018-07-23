@@ -73,8 +73,9 @@ sources:
 [Ansible and Docker: the Best Combination for an Efficient Software Product Management](https://medium.com/@cabot_solutions/ansible-and-docker-the-best-combination-for-an-efficient-software-product-management-28c86cfebe90)
 
 
-<a name="myfootnote1" href="https://en.wikipedia.org/wiki/Ansible_(software)">- 1</a> Wikipedia
-<a name="myfootnote2" href="https://medium.com/@cabot_solutions/ansible-and-docker-the-best-combination-for-an-efficient-software-product-management-28c86cfebe90">- 2</a> Ansible and Docker: the Best Combination for an Efficient Software Product Management
+1 - <a name="myfootnote1" href="https://en.wikipedia.org/wiki/Ansible_(software)">Wikipedia</a>
+
+2- <a name="myfootnote2" href="https://medium.com/@cabot_solutions/ansible-and-docker-the-best-combination-for-an-efficient-software-product-management-28c86cfebe90">Ansible and Docker: the Best Combination for an Efficient Software Product Management</a>
 
 
 
