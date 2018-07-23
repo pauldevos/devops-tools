@@ -66,10 +66,21 @@ Ansible also uses OpenSSH and WinRM for secure network connections using network
 capabilities and authentication methods. OpenSSH is also known as OpenBSD Secure Shell and is based on the Secure Shell (SSH) protocol, 
 thus it is a premier connectivity tool for developers to perform remote logins through SSH protocol. Ansible automates configuration 
 through pushing commands on these SSH protocols. Hence it is a push model, meaning no additional installs are not required at the end 
-points.
+points.<sup>[2](#myfootnote2)</sup>
 
 sources: 
 [Wikipedia](https://en.wikipedia.org/wiki/Ansible_(software))
+[Ansible and Docker: the Best Combination for an Efficient Software Product Management](https://medium.com/@cabot_solutions/ansible-and-docker-the-best-combination-for-an-efficient-software-product-management-28c86cfebe90)
+
+
+<a name="myfootnote1" href="https://en.wikipedia.org/wiki/Ansible_(software)">- 1</a> Wikipedia
+<a name="myfootnote2" href="https://medium.com/@cabot_solutions/ansible-and-docker-the-best-combination-for-an-efficient-software-product-management-28c86cfebe90">- 2</a> Ansible and Docker: the Best Combination for an Efficient Software Product Management
+
+
+
+
+
+
 
 [Helm](https://github.com/kubernetes/helm) - a Kubernetes Package Manager
 
