@@ -57,11 +57,19 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 Ansible is an open source software that automates software provisioning, configuration management, and application deployment.
 
 In contrast with popular configuration management software — such as **Chef**, **Puppet**, and **CFEngine** — **Ansible** uses an 
-*agentless* architecture. With an *agent-based* architecture, nodes must have a locally installed daemon that communicates with a controlling
-machine. With an  agentless architecture, nodes are not required to install and run background daemons to connect with a controlling 
-machine. This type of  architecture reduces the overhead on the network by preventing the nodes from polling the controlling machine.
+*agentless* architecture. With an *agent-based* architecture, nodes must have a locally installed daemon that communicates with a 
+controlling machine. With an agentless architecture, nodes are **not required to install and run background daemons** [on those endpoints] 
+to connect with a controlling machine. This type of architecture reduces the overhead on the network by preventing the nodes from polling 
+the controlling machine.
 
-source: [Wikipedia](https://en.wikipedia.org/wiki/Ansible_(software))
+Ansible also uses OpenSSH and WinRM for secure network connections using network traffic encryption by providing safe tunneling 
+capabilities and authentication methods. OpenSSH is also known as OpenBSD Secure Shell and is based on the Secure Shell (SSH) protocol, 
+thus it is a premier connectivity tool for developers to perform remote logins through SSH protocol. Ansible automates configuration 
+through pushing commands on these SSH protocols. Hence it is a push model, meaning no additional installs are not required at the end 
+points.
+
+sources: 
+[Wikipedia](https://en.wikipedia.org/wiki/Ansible_(software))
 
 [Helm](https://github.com/kubernetes/helm) - a Kubernetes Package Manager
 
