@@ -21,16 +21,13 @@
 
 #### Example DAGs
 
+```Python
 import airflow.models as af_models
 
 DAG = af_models.DAG(
 	dag_id = 'my_dag', #unique
 	start_date = datetime(2016, 8, 13),
 	schedule_interval='0 10 * * *')
-
-
-
-
 
 for f in files:
 	task = af_op.PythonOperator(
@@ -40,3 +37,5 @@ for f in files:
 		dag = DAG
 		)
 task.set_upstream(first_task)
+```
+
