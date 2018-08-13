@@ -10,12 +10,13 @@
 # useful DAG arguments
 -- default_args (for the tasks you put into it)
 -- max_active_runs  #avoid AF from starting all the runs at once
--- concurrency # limit ways to not kill your DB
 
--- retries
--- pool
--- queue (Celery only)
-	-- can associate tasks for specific computers (e.g. memory intensive)
+# airflow.cfg considerations:
+- concurrency # limit ways to not kill your DB
+- retries
+- pool
+- queue (Celery only)
+	- can associate tasks for specific computers (e.g. memory intensive)
 ```
 
 #### Example DAGs
