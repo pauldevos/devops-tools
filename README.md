@@ -5,6 +5,7 @@ DevOps has a crap-ton of tools. If you want your mind blown, just go here and lo
 
 The main thing is there's so many factors in how all of these tools work together. What platform are you using? AWS or Google Cloud or other or multiple cloud solutions? Is your team Ruby, Java, JavaScript or Python in terms of main tool sets? Are you looking to use stateful or procedural provisioning? e.g. can you wait 20 mins for each Docker container to spin up? How about fault tolerant solutions? All of these tools seem to address them in a slightly different way and each with a different scope of where they begin and end, e.g. Orchestration, Configuration Management, Package Management, Environment Management, Installing Software, and so on and so forth.
 
+For the tools I'll first try to define the scope of what each tool can do. Then I'll try to show which languages each primarily uses. Lastly, learning curve to "first action" and to "proficient"...as some might be right (now) vs right (later). 
 
 #### <------- This is in development --------> 
 
