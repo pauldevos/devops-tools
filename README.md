@@ -1,3 +1,5 @@
+#### <------- Note: This is in development --------> 
+
 # devops-tools-repository
 This will serve as a reservoire of [public] notes for me that outline various "infrastucture as code" thoughts and tools I've tried. I'll probably curate a number of articles that also helped shape this process.
 
@@ -8,6 +10,16 @@ The main thing is there's so many factors in how all of these tools work togethe
 For the tools I'll first try to define the scope of what each tool can do. Then I'll try to show which languages each primarily uses. Lastly, learning curve to "first action" and to "proficient"...as some might be right (now) vs right (later). 
 
 #### <------- This is in development --------> 
+
+### Tools I'm targeting to learn or like the most so far include:
+- Ansible
+- Terraform
+- Airflow
+- Docker
+- Kubernetes
+- Jenkins
+
+I should note. I work a lot with Data Scientists and BI Analysts and then typically do a lot of engineering work with machine learning services (microservices). So most of my focus will be on those applications.
 
 ## Tools
 
