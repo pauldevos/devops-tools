@@ -1,5 +1,9 @@
-# tools-repository
-A repository of tools used for Data Science, Machine Learning, Deep Learning, Data Engineering, and DataOps revolving around reproducibility and compatability across operating systems
+# devops-tools-repository
+This will serve as a reservoire of [public] notes for me that outline various "infrastucture as code" thoughts and tools I've tried. I'll probably curate a number of articles that also helped shape this process.
+
+DevOps has a crap-ton of tools. If you want your mind blown, just go here and look around [DevOpsBookMarks](http://www.devopsbookmarks.com/). A truly exhaustive resource on the number of tools out there.
+
+The main thing is there's so many factors in how all of these tools work together. What platform are you using? AWS or Google Cloud or other or multiple cloud solutions? Is your team Ruby, Java, JavaScript or Python in terms of main tool sets? Are you looking to use stateful or procedural provisioning? e.g. can you wait 20 mins for each Docker container to spin up? How about fault tolerant solutions? All of these tools seem to address them in a slightly different way and each with a different scope of where they begin and end, e.g. Orchestration, Configuration Management, Package Management, Environment Management, Installing Software, and so on and so forth.
 
 
 #### <------- This is in development --------> 
