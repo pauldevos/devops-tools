@@ -18,6 +18,7 @@ For the tools I'll first try to define the scope of what each tool can do. Then 
 - Docker
 - Kubernetes
 - Jenkins
+- Vagrant
 
 I should note. I work a lot with Data Scientists and BI Analysts and then typically do a lot of engineering work with machine learning services (microservices). So most of my focus will be on those applications.
 
