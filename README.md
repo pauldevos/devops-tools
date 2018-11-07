@@ -100,6 +100,28 @@ sources:
 
 
 
+## Terraform-Packer-Ansible-Docker
+```
+a common pattern is to use Packer to create an AMI that has the Docker Engine installed, deploy that AMI on a cluster of servers in your AWS account, and then deploy individual Docker containers across that cluster to run your applications.
+
+Server templating is a key component of the shift to immutable infrastructure. This idea is inspired by functional programming, where variables are immutable, so once you’ve set a variable to a value, you can never change that variable again. If you need to update something, you create a new variable. Since variables never change, it’s a lot easier to reason about your code.
+
+The idea behind immutable infrastructure is similar: once you’ve deployed a server, you never make changes to it again. If you need to update something (e.g., deploy a new version of your code), you create a new image from your server template and you deploy it on a new server. Since servers never change, it’s a lot easier to reason about what’s deployed. -- from Terraform, Up and Running.
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [Helm](https://github.com/kubernetes/helm) - a Kubernetes Package Manager
 
