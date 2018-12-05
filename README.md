@@ -122,7 +122,8 @@ Terraform, Up and Running.
 
 
 
-
+### Commit Hooks
+- [Pre-Commit](https://pre-commit.com/)
 
 
 
