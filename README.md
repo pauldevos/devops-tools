@@ -13,7 +13,6 @@ DevOps has a crap-ton of tools. If you want your mind blown, just go here and lo
 - Docker
 - Kubernetes
 - Jenkins, CircleCI, TravisCI
-
 - [Continuous Integration](https://realpython.com/python-continuous-integration/)
 
 
