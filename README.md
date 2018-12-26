@@ -107,6 +107,7 @@ Terraform, Up and Running.
 
 ## Ansible
 - [Stack Overflow - How can I test jinja2 templates in ansible?](https://stackoverflow.com/questions/35407822/how-can-i-test-jinja2-templates-in-ansible)
+- [Shell Scripts to Ansible](https://www.ansible.com/blog/shell-scripts-to-ansible)
 
 
 
