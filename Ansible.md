@@ -1,7 +1,7 @@
 # Ansible
 
 
-### [Ansible Config Variables](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#ansible-configuration-settings)
+### Ansible
 - This comes in handy when you're trying to set up or tweet your Ansible configuration.
 
 
@@ -11,3 +11,5 @@
 ```bash
 ansible-config [view|dump|list] [--help] [options] [ansible.cfg]
 ```
+
+- [Ansible Config Variables](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#ansible-configuration-settings)
