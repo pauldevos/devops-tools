@@ -17,6 +17,7 @@ ansible-config [view|dump|list] [--help] [options] [ansible.cfg]
 
 ### Useful Command Line Tools ([Link](https://docs.ansible.com/ansible/latest/user_guide/command_line_tools.html))
 
+- `ansible <host-pattern>`
 ```bash
 ansible <host-pattern> [options]
 
@@ -32,6 +33,7 @@ ansible <host-pattern> [options]
 -m <MODULE_NAME>, --module-name <MODULE_NAME> # module name to execute (default=command)
 ```
 
+- `ansible-config`
 ```bash
 ansible-config [view|dump|list] [--help] [options] [ansible.cfg]
 
@@ -50,7 +52,7 @@ view
 Displays the current config file
 ```
 
-- ansible-console [<host-pattern>] [options]
+- `ansible-console`
   
 ```bash
 ansible-console [<host-pattern>] [options]
