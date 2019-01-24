@@ -56,3 +56,19 @@ Displays the current config file
   
 ```bash
 ansible-console [<host-pattern>] [options]
+
+-C, --check # don’t make any changes; instead, try to predict some of the changes that may occur
+
+-D, --diff # when changing (small) files and templates, show the differences in those files; works great with –check
+```
+
+- ansible-inventory
+```bash
+ansible-inventory [options] [host|group]
+
+-- export # When doing an –list, represent in a way that is optimized for export,not as an accurate representation of how Ansible has processed it
+
+-- graph # create inventory graph, if supplying pattern it must be a valid group name
+
+-- list # Output all hosts info, works as inventory script
+
