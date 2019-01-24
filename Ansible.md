@@ -13,3 +13,11 @@ ansible-config [view|dump|list] [--help] [options] [ansible.cfg]
 ```
 
 - [Ansible Config Variables](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#ansible-configuration-settings)
+
+
+### Useful Command Line Tools ([Link](https://docs.ansible.com/ansible/latest/user_guide/command_line_tools.html))
+
+'''bash
+ansible <host-pattern> [options]
+
+'''
