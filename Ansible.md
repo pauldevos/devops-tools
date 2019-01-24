@@ -9,6 +9,23 @@ Some people talk about the need for _`orchestration of deployment`_. This 
 Finally, you’ll hear people talk about _`provisioning`_ new servers. In the context of public clouds such as Amazon EC2, this refers to spinning up a new virtual machine instance. -- _`Ansible: Up and Running`_
 
 
+Putting It All Together 
+
+To sum up, a `playbook` contains one or more `plays`. A `play` associates an unordered set of `hosts` with an ordered list of `tasks`. Each `task` is associated with exactly one `module`. 
+
+The figure below is an entity-relationship diagram that depicts this relationship between playbooks, plays, hosts, tasks, and modules.
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+
+
+
+
+
+
+
 ### Ansible
 - This comes in handy when you're trying to set up or tweak your Ansible configuration.
 
