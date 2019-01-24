@@ -71,4 +71,28 @@ ansible-inventory [options] [host|group]
 -- graph # create inventory graph, if supplying pattern it must be a valid group name
 
 -- list # Output all hosts info, works as inventory script
+```
+
+- ansible-playbook
+```bash
+ansible-playbook [options] playbook.yml [playbook2 ...]
+
+--flush-cache # clear the fact cache for every host in inventory
+
+--force-handlers # run handlers even if a task fails
+
+--list-hosts # outputs a list of matching hosts; does not execute anything else
+
+--list-tags # list all available tags
+
+--list-tasks # list all tasks that would be executed
+
+--syntax-check # perform a syntax check on the playbook, but do not execute it
+
+-C, --check # don’t make any changes; instead, try to predict some of the changes that may occur
+
+-D, --diff # when changing (small) files and templates, show the differences in those files; works great with –check
+
+-i, --inventory, --inventory-file # specify inventory host path or comma separated host list. –inventory-file is deprecated
+```
 
