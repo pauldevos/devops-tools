@@ -6,7 +6,7 @@ These tools can be used for deployment as well. When people talk about _`d
 
 Some people talk about the need for _`orchestration of deployment`_. This is where **multiple remote servers are involved, and things have to happen in a specific order.** For example, you need to bring up the database before bringing up the web servers, or you need to take web servers out of the load balancer one at a time in order to upgrade them without downtime. Ansible is good at this as well, and is designed from the ground up for performing actions on multiple servers. **Ansible has a refreshingly simple model for controlling the order in which actions happen.** 
 
-Finally, you’ll hear people talk about _`provisioning`_ new servers. In the context of public clouds such as Amazon EC2, this refers to spinning up a new virtual machine instance. -- `_Ansible: Up and Running`_
+Finally, you’ll hear people talk about _`provisioning`_ new servers. In the context of public clouds such as Amazon EC2, this refers to spinning up a new virtual machine instance. -- _`Ansible: Up and Running`_
 
 
 ### Ansible
