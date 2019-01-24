@@ -17,7 +17,35 @@ ansible-config [view|dump|list] [--help] [options] [ansible.cfg]
 
 ### Useful Command Line Tools ([Link](https://docs.ansible.com/ansible/latest/user_guide/command_line_tools.html))
 
-'''bash
+```bash
 ansible <host-pattern> [options]
 
-'''
+[options]
+--list-hosts
+
+-C, --check # doesn’t make any changes; instead, try to predict some of the changes that may occur
+
+-D, --diff # when changing (small) files and templates, show the differences in those files; works great with –check
+
+-i, --inventory # specify inventory host path or comma separated host list. –inventory-file is deprecated
+
+-m <MODULE_NAME>, --module-name <MODULE_NAME> # module name to execute (default=command)
+```
+
+```bash
+ansible-config [view|dump|list] [--help] [options] [ansible.cfg]
+
+-c <CONFIG_FILE>, --config <CONFIG_FILE>
+
+list
+list all current configs reading lib/constants.py and shows env and config file setting names
+
+dump
+Shows the current settings, merges ansible.cfg if specified
+
+--only-changed
+Only show configurations that have changed from the default
+
+view
+Displays the current config file
+```
