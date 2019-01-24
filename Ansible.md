@@ -15,12 +15,9 @@ To sum up, a `playbook` contains one or more `plays`. A `play` associates an uno
 
 The figure below is an entity-relationship diagram that depicts this relationship between playbooks, plays, hosts, tasks, and modules.
 
-![alt text][logo]
-
-[logo]: https://github.com/pauldevos/devops-tools/blob/master/ansible-playbooks.png
-
-
-
+<p align="center">
+  <img src="https://github.com/pauldevos/devops-tools/blob/master/ansible-playbooks.png?raw=true" alt="Playbooks Image"/>
+</p>
 
 
 
