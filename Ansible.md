@@ -49,3 +49,8 @@ Only show configurations that have changed from the default
 view
 Displays the current config file
 ```
+
+- ansible-console [<host-pattern>] [options]
+  
+```bash
+ansible-console [<host-pattern>] [options]
