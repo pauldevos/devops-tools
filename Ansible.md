@@ -21,7 +21,7 @@ The figure below is an entity-relationship diagram that depicts this relations
 
 ### Ansible Playbook
 
-```bash 
+```yml 
 # web-notls.yml
 - name: Configure webserver with nginx
   hosts: webservers
