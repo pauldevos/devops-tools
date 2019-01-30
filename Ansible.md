@@ -20,8 +20,10 @@ The figure below is an entity-relationship diagram that depicts this relations
 </p>
 
 ### Ansible Playbook
-A playbook contains `one` play, `five` tasks
+A playbook contains `one` play, `five` tasks.
+
 Every `play` must have a set of hosts to configure and a list of tasks to be executed on those hosts.
+
 Think of a `play` as the thing that connects `hosts` to `tasks`.
 
 ```yml 
