@@ -65,7 +65,8 @@ ansible-config [view|dump|list] [--help] [options] [ansible.cfg]
 
 ### Useful Command Line Tools ([Link](https://docs.ansible.com/ansible/latest/user_guide/command_line_tools.html))
 
-- ansible <host-pattern>
+### ansible <host-pattern>
+  
 ```bash
 ansible <host-pattern> [options]
 
@@ -81,7 +82,8 @@ ansible <host-pattern> [options]
 -m <MODULE_NAME>, --module-name <MODULE_NAME> # module name to execute (default=command)
 ```
 
-- ansible-config
+### ansible-config
+
 ```bash
 ansible-config [view|dump|list] [--help] [options] [ansible.cfg]
 
@@ -100,7 +102,7 @@ view
 Displays the current config file
 ```
 
-- ansible-console
+### ansible-console
   
 ```bash
 ansible-console [<host-pattern>] [options]
@@ -110,7 +112,7 @@ ansible-console [<host-pattern>] [options]
 -D, --diff # when changing (small) files and templates, show the differences in those files; works great with –check
 ```
 
-- ansible-inventory
+### ansible-inventory
 ```bash
 ansible-inventory [options] [host|group]
 
@@ -121,7 +123,7 @@ ansible-inventory [options] [host|group]
 -- list # Output all hosts info, works as inventory script
 ```
 
-- ansible-playbook
+### ansible-playbook
 
 The `ansible-playbook` command executes playbooks. 
 
