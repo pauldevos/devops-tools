@@ -122,6 +122,9 @@ ansible-inventory [options] [host|group]
 ```
 
 - ansible-playbook
+
+The `ansible-playbook` command executes playbooks. 
+
 ```bash
 ansible-playbook [options] playbook.yml [playbook2 ...]
 
