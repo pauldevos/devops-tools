@@ -22,11 +22,12 @@ The figure below is an entity-relationship diagram that depicts this relations
 ### Ansible Playbook
 
 ```yml 
-# web-notls.yml
+# web-notls.yml -- taken from "Ansible: Up and Running" -- highly recommend Chapters 1, 2, 3, & 4
+# playbook contains `one` play, `five` tasks
 - name: Configure webserver with nginx
   hosts: webservers
   become: True
-  tasks:
+  tasks: 
     - name: install nginx
       apt: name=nginx update_cache=yes
 
@@ -46,6 +47,9 @@ The figure below is an entity-relationship diagram that depicts this relations
     - name: restart nginx
       service: name=nginx state=restarted
 ```
+
+
+
 
 
 
