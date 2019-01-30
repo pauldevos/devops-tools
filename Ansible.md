@@ -19,10 +19,37 @@ The figure below is an entity-relationship diagram that depicts this relations
   <img src="https://github.com/pauldevos/devops-tools/blob/master/ansible-playbooks.png?raw=true" alt="Playbooks Image"/>
 </p>
 
+### Ansible Playbook
+
+```bash 
+# web-notls.yml
+- name: Configure webserver with nginx
+  hosts: webservers
+  become: True
+  tasks:
+    - name: install nginx
+      apt: name=nginx update_cache=yes
+
+    - name: copy nginx config file
+      copy: src=files/nginx.conf dest=/etc/nginx/sites-available/default
+
+    - name: enable configuration
+      file: >
+        dest=/etc/nginx/sites-enabled/default
+        src=/etc/nginx/sites-available/default
+        state=link
+
+    - name: copy index.html
+      template: src=templates/index.html.j2 dest=/usr/share/nginx/html/index.html
+        mode=0644
+
+    - name: restart nginx
+      service: name=nginx state=restarted
+```
 
 
 
-### Ansible
+### Ansible Configuration
 - This comes in handy when you're trying to set up or tweak your Ansible configuration.
 
 
