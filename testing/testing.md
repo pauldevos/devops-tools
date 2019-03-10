@@ -5,3 +5,6 @@
 - [developsense](https://developsense.com/)
 
 
+
+## Agile Blogs
+- [James Shore's Blog](https://www.jamesshore.com/)
