@@ -8,6 +8,7 @@
 
 ## Agile Blogs
 - [James Shore's Blog](https://www.jamesshore.com/)
+- [Lisa Crispin - Agile Testing](https://lisacrispin.com/)
 
 
 ## Testing Books
