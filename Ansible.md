@@ -1,5 +1,24 @@
 # Ansible
 
+
+### Installation
+
+#### Installation on Ubuntu
+- [How to Install and Configure Ansible on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ansible-on-ubuntu-18-04)
+- [Ansible tutorial - installing packages](https://medium.com/@perwagnernielsen/ansible-tutorial-part-2-installing-packages-41d3ab28337d)
+- [Ansible - Installing Miniconda](https://github.com/uchida/ansible-miniconda-role)
+
+
+#### Learning Ansible
+- [Ansible Tutorial](https://codereviewvideos.com/course/ansible-tutorial)
+
+
+
+
+
+
+
+-------
 Ansible is often described as a _`configuration management`_ tool, and is typically mentioned in the same breath as Chef, Puppet, and Salt. When we talk about configuration management, we are typically talking about **writing some kind of state description for our servers, and then using a tool to enforce that the servers are, indeed, in that state: the right packages are installed, configuration files contain the expected values and have the expected permissions, the right services are running, and so on.** Like other configuration management tools, Ansible exposes a domain-specific language (DSL) that you use to describe _the state_ of your servers. 
 
 These tools can be used for deployment as well. When people talk about _`deployment`_, they are usually referring to the **process of taking software that was written in-house, generating binaries or static assets (if necessary), copying the required files to the server(s), and then starting up the services.** _Capistrano_ and _Fabric_ are two examples of open source deployment tools. Ansible is a great tool for `deployment` as well as `configuration management`. Using a single tool for both configuration management and deployment makes life simpler for the folks responsible for operations. 
