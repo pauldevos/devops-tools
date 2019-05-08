@@ -1,7 +1,7 @@
 # DevOps Tools
 
 ### Testing and installing of Python environments and packages.
-- Tox
+- Tox ([Automating Build, Test and Release Workflows with tox](https://www.youtube.com/watch?v=PrAyvH-tm8E))
 - Pytest
 - CircleCI (or TravisCI, Jenkins)
 - [Continuous Integration](https://realpython.com/python-continuous-integration/)
