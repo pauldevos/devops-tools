@@ -4,8 +4,6 @@
 - Tox
 - Pytest
 - CircleCI (or TravisCI, Jenkins)
-- 
-
 - [Continuous Integration](https://realpython.com/python-continuous-integration/)
 
 https://www.heavybit.com/library/blog/opinionated-tour-of-testing-tools/
