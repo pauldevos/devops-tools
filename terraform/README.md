@@ -7,3 +7,7 @@
 
 ### Terraform Examples
 - [terraform-provider-aws](https://github.com/terraform-providers/terraform-provider-aws/tree/master/examples)
+
+
+### AWS Tools
+- [terraforming](https://github.com/dtan4/terraforming) - Extracts AWS resources into Terraform Code 
