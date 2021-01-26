@@ -10,4 +10,5 @@
 
 
 ### AWS Tools
-- [terraforming](https://github.com/dtan4/terraforming) - Extracts AWS resources into Terraform Code 
+- [terraforming](https://github.com/dtan4/terraforming) - Extracts AWS resources into Terraform Code
+- [Storing Terraform state in S3](https://www.lightenna.com/tech/2018/storing-terraform-state-in-s3/)
